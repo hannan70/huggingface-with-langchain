@@ -4,3 +4,8 @@ langchain_community
 pypdf
 bs4
 langchain_text_splitters
+langchain-openai
+sentence-transformers
+langchain-huggingface
+chromadb
+faiss-cpu
