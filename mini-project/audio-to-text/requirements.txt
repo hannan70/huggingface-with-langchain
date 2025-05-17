@@ -1,0 +1,6 @@
+transformers
+librosa
+torch 
+torchvision 
+torchaudio
+huggingface_hub

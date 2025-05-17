@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>Flask TTS</title>
+</head>
+<body>
+    <form method="POST">
+        <textarea name="text" rows="4" cols="50">{{ input_value }}</textarea><br>
+        <button type="submit">Convert to Voice</button>
+    </form>
+
+    {% if audio %}
+       <div style="display: none;">
+         <h3>Playback:</h3>
+        <audio controls autoplay>
+            <source src="{{ audio }}" type="audio/mpeg">
+        </audio>
+       </div>
+    {% endif %}
+</body>
+</html>
