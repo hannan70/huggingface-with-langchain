@@ -10,3 +10,4 @@ langchain-huggingface
 chromadb
 faiss-cpu
 langchain-groq
+streamlit
