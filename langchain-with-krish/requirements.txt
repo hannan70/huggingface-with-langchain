@@ -11,3 +11,7 @@ chromadb
 faiss-cpu
 langchain-groq
 streamlit
+youtube-transcript-api
+pytube
+unstructured
+validators==0.28.1
