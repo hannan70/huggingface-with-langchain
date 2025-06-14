@@ -15,3 +15,8 @@ youtube-transcript-api
 pytube
 unstructured
 validators==0.28.1
+google-api-python-client
+wikipedia
+arxiv
+sentence-transformers
+tavily-python
